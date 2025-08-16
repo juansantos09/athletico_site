@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Athletico-PR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 </head>
 
 
@@ -11,6 +14,7 @@
 
 body {
     margin: 0%;
+    background: linear-gradient(135deg, #111111, #2b2b2b);
 }
 
 .navbar {
@@ -55,13 +59,73 @@ body {
       color: #d61010;
     }
 
+    .titulo{
+      text-align: center;
+      font-family: "Archivo Black", sans-serif;
+      color: white;
+      font-size: 60px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      text-shadow: 8px 8px 5px #000000;
+    }
+
+    .subtitulos {
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-family: "Archivo Black", sans-serif;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 50px;
+    }
+
+    h1 {
+      font-family: "Archivo Black", sans-serif;
+      text-shadow: 2px 2px 5px #b4afaf;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .box01 {
+      width: 100%;
+      height: 100%;
+      background-color:rgb(121, 117, 117);
+      
+    }
+
+    .box {
+      width: 350px;
+      height: 450px;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      background-color:rgb(121, 117, 117);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      margin-top: 5%;
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(255, 77, 77, 0.7);
+    }
+
+    .img {
+      width: 300px;
+      height: 350px;
+      margin-top: 5%;
+      border-radius: 30px;
+    }
 
 </style>
-
-
-
-
-
 
 <body>
 
@@ -81,4 +145,151 @@ body {
         </nav>
       </div>
 
-     
+      <div class="container">
+
+        <div class="box01">
+
+        <h2 class="titulo">ELENCO RUBRO NEGRO</h2>
+
+        </div>
+
+        <h2 class="subtitulos">GOLEIROS</h2>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2018/11/23151554/SANTOS_FP.jpg" alt="">
+            <h1>SANTOS</h1>
+
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2019/04/23152616/MYCAEL_FP.jpg" alt="">
+            <h1>MYCAEL</h1>
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2022/06/23151503/MATHEUS_FP.jpg" alt="">
+            <h1>MATHEUS SOARES</h1>
+
+        </div>
+
+        <h2 class="subtitulos">ZAGUEIROS</h2>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2025/01/23153035/LEO_FP.jpg" alt="">
+            <h1>LÉO PELÉ</h1>
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2023/08/23153316/MARCAO_FP.jpg" alt="">
+            <h1>MARCOS ANDRÉ</h1>
+
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2025/07/07110751/Juan-Aguirre.jpg" alt="">
+            <h1>AGUIRRE</h1>
+
+        </div>
+
+        <h2 class="subtitulos">LATERAIS</h2>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2023/05/23153523/ESQUIVEL_FP.jpg" alt="">
+            <h1>LUCAS ESQUIVEL</h1>
+
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2019/02/17105450/Madson-1.jpg" alt="">
+            <h1>MADSON</h1>
+
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2021/05/23153910/DERIK_FP.jpg" alt="">
+            <h1>LEO DERIK</h1>
+
+        </div>
+
+        <h2 class="subtitulos">MEIO-CAMPO</h2>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2025/02/23154633/patrick_fp.jpg" alt="">
+            <h1>PATRICK</h1>
+
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2025/01/23154539/giuliano_fp.jpg" alt="">
+            <h1>GIULIANO</h1>
+
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2023/07/23154455/zapelli_fp.jpg" alt="">
+            <h1>BRUNO ZAPELLI</h1>
+
+        </div>
+
+          <h2 class="subtitulos">ATACANTES</h2>
+
+        <div class="box">
+
+          <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2025/07/04082626/Steven-Mendoza-1.jpg" alt="">
+          <h1>STEVEN MENDOZA</h1>
+
+        </div>
+
+        <div class="box">
+
+          <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2025/01/23163041/leozinho_fp.jpg" alt="">
+          <h1>LEOZINHO</h1>
+
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2019/12/23164039/julimar_fp.jpg" alt="">
+            <h1>JULIMAR</h1>
+
+        </div>
+
+        <h2 class="subtitulos">COMISSÃO TÉCNICA</h2>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2025/05/23071403/equipe_odair.jpg" alt="">
+            <h1>ODAIR HELLMANN</h1>
+
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2025/05/23070148/equipe_fabio.jpg" alt="">
+            <h1>FÁBIO MORENO</h1>
+
+        </div>
+
+        <div class="box">
+
+            <img class="img" src="https://static.athletico.com.br/wp-content/uploads/2025/05/23070939/equipe_guilherme-vaz.jpg" alt="">
+            <h1>GUILHERME VAZ</h1>
+
+        </div>
+
+      </div>
+
+</body>
+</html>
