@@ -1,0 +1,111 @@
+    body {
+        margin: 0%;
+        background: linear-gradient(135deg, #111111, #2b2b2b);
+    }
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #000000;
+      padding: 20px 200px;
+      
+    }
+
+    .navbar .logo {
+      width: 60px;
+      height: 80px;
+      
+      
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+    }
+
+    .navbar ul li {
+      margin-left: 70px;
+    }
+
+    .link {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      transition: color 0.3s ease;
+      cursor: pointer;
+    }
+
+    .link_ativ {
+      color: #d61010;
+    }
+
+    .navbar ul li a:hover {
+      color: #d61010;
+    }
+
+    .titulo{
+      text-align: center;
+      font-family: "Archivo Black", sans-serif;
+      color: white;
+      font-size: 60px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      text-shadow: 8px 8px 5px #000000;
+    }
+
+    .subtitulos {
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-family: "Archivo Black", sans-serif;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 50px;
+    }
+
+    h1 {
+      font-family: "Archivo Black", sans-serif;
+      text-shadow: 2px 2px 5px #b4afaf;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .box01 {
+      width: 100%;
+      height: 100%;
+      background-color:rgb(34, 33, 33);
+    }
+
+    .box {
+      width: 350px;
+      height: 450px;
+      border-radius: 30px;
+      border: none;
+      cursor: pointer;
+      background-color:rgb(121, 117, 117);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      margin-top: 5%;
+      transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(255, 77, 77, 0.7);
+    }
+
+    .img {
+      width: 300px;
+      height: 350px;
+      margin-top: 5%;
+      border-radius: 30px;
+    }
